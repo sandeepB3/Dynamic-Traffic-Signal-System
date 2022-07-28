@@ -12,4 +12,7 @@ This repo contains two folders one on Yolo Algorithm and the other on Haar-Casca
 <img width="520" alt="Screenshot 2022-07-28 at 10 28 12 PM" src="https://user-images.githubusercontent.com/107111616/181595278-0b0579a8-e717-478d-a4bf-955b0acd5866.png">
 
 ***
-## In conclusion use the the Yolo Algorithm Folder if your device supports more than 2GB. For lesser RAM consumption use Haar-Cascade
+###IMP: https://drive.google.com/drive/folders/1XwOK6L3GLTz4mmIVy0BKlZB1KSh_JCOt?usp=sharing 
+##### The above link contains yolov4.weights it's an 250MB file. If using the Yolo Algorithm, this file needs to be downloaded and placed inside dnn_model folder inside the Yolo Algorithm. Without the yolov4.weights the algorithm wont work. (Couldn't add it to github repo due to its large size)  
+
+**In conclusion use the the Yolo Algorithm Folder if your device supports more than 2GB RAM. For lesser RAM consumption use Haar-Cascade**
