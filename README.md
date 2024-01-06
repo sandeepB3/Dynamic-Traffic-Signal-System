@@ -3,8 +3,8 @@
 Dynamic Traffic System - This project is based on real time detection of traffic congestion using Python. The system contains raspberry-pi 3B, camera and LED traffic modules. Uses Haar Cascade / Yolo Algorithm to detect and count vehicles. GPIO pins used to control traffic module.
 
 Important Libraries used:
-1. OpenCV - Used to detect and capture frames from the camera module.
-2. Turtle - For graphical representation of 4 way traffic signal system.
+1. OpenCV : Used to detect and capture frames from the camera module.
+2. Turtle : For graphical representation of 4 way traffic signal system.
 
 ***
 This repo contains two folders one on Yolo Algorithm and the other on Haar-Cascade Algorithm. The Yolo ALgorithm uses high amount of RAM (about more than 1GB) but is highly accurate. So this algo cannot be implemented in a raspberry-pi 3B which only supports upto 1GB RAM. Hence the Yolo ALgorithm is implemented to present a virtual simulation (using turtle library) of a Dynamic Traffic System Model on a computer of high RAM. The HAAR-Cascade algo uses very less RAM also has poor accuracy. Hence due to low RAM consumption by this algo it is implemented on practical Dynamic Traffic System Model using raspberry-pi 3B.
